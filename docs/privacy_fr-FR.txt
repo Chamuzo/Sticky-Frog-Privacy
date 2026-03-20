@@ -68,7 +68,7 @@ Les donnees necessaires aux fonctions Google Play Games et a la monetisation pub
 
 9. Vos droits et demandes de suppression
 Canal principal (portail de demandes) :
-https://script.google.com/macros/s/AKfycbzfRV30N9koBFfVoa34vbsSS53J0UFRbQ1_WTPBfxluC3bUmAsW9ijwLKGWCXa8okWx2w/exec
+https://forms.gle/Xr1puNcL5sDi64fD7
 
 Canal alternatif (email de secours) :
 wcg.privacy@gmail.com

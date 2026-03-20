@@ -68,7 +68,7 @@ Los datos necesarios para ofrecer funciones de Google Play Games y monetizacion 
 
 9. Tus derechos y solicitudes de eliminacion
 Canal principal (portal de solicitudes):
-https://script.google.com/macros/s/AKfycbzfRV30N9koBFfVoa34vbsSS53J0UFRbQ1_WTPBfxluC3bUmAsW9ijwLKGWCXa8okWx2w/exec
+https://forms.gle/Xr1puNcL5sDi64fD7
 
 Canal alternativo (email de respaldo):
 wcg.privacy@gmail.com

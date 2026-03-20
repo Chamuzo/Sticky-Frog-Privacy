@@ -68,7 +68,7 @@ Daten, die fuer Google Play Games Funktionen und Werbe-Monetarisierung noetig si
 
 9. Rechte und Loeschanfragen
 Primaerer Kanal (Anfrageportal):
-https://script.google.com/macros/s/AKfycbzfRV30N9koBFfVoa34vbsSS53J0UFRbQ1_WTPBfxluC3bUmAsW9ijwLKGWCXa8okWx2w/exec
+https://forms.gle/Xr1puNcL5sDi64fD7
 
 Alternativer Kanal (Backup-E-Mail):
 wcg.privacy@gmail.com

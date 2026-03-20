@@ -68,7 +68,7 @@ Data needed to provide Google Play Games and ad monetization features may be sha
 
 9. Your rights and deletion requests
 Primary channel (request portal):
-https://script.google.com/macros/s/AKfycbzfRV30N9koBFfVoa34vbsSS53J0UFRbQ1_WTPBfxluC3bUmAsW9ijwLKGWCXa8okWx2w/exec
+https://forms.gle/Xr1puNcL5sDi64fD7
 
 Backup channel (email):
 wcg.privacy@gmail.com
