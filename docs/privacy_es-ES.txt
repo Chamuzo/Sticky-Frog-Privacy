@@ -1,5 +1,5 @@
 Politica de Privacidad de Sticky Frog
-Ultima actualizacion: 20 de marzo de 2026
+Ultima actualizacion: 19 de abril de 2026
 
 Gracias por jugar a Sticky Frog. Esta politica explica que datos se tratan, para que se usan y que opciones tienes.
 
@@ -13,7 +13,7 @@ Esta politica aplica al juego Sticky Frog para Android.
 3. Datos que podemos tratar
 A) Datos del juego (locales y de jugabilidad)
 - Progreso, records, monedas, desbloqueos, skins seleccionadas y ajustes.
-- Eventos tecnicos de jugabilidad (por ejemplo: inicio/fin de partida, checkpoints de distancia, contexto de muerte, uso de revivir, pulsaciones de botones).
+- Eventos tecnicos de jugabilidad (por ejemplo: inicio/fin de partida, distancia y duracion de la partida, numero y duracion de los enganches, rebotes en nenufar, altura maxima alcanzada, contexto y causa de muerte, estado del sapo al morir, skins equipadas en cada partida, uso de revivir, primera partida completada, paso de la app a segundo plano, resumen de visitas a la tienda y momento de las compras).
 
 B) Datos de Google Play Games (si inicias sesion)
 - Identificador de jugador de Google Play Games y nombre de perfil.
@@ -24,9 +24,10 @@ C) Datos de publicidad y monetizacion (Google AdMob)
 - Senales de solicitud, carga, impresion e interaccion con anuncios.
 - Ubicacion aproximada inferida por red/IP (la app no usa GPS preciso).
 
-D) Telemetria analitica (Firebase Measurement Protocol)
+D) Telemetria analitica (SDK nativo de Firebase Analytics para Android)
 - Eventos seudonimos de la app para entender rendimiento del juego y tendencias de uso.
-- Campos de ejemplo: nombre de evento, marca temporal, version de app, identificadores de sesion/partida, metricas de jugabilidad y flujo de anuncios.
+- Campos de ejemplo: nombre de evento, marca temporal, version de app, identificadores de sesion/partida, metricas de jugabilidad, flujo de tienda y de anuncios.
+- Identificador seudonimo `app_instance_id` generado por el SDK de Firebase y vinculado a la instalacion (no es un dato de identidad real y se restablece al borrar datos o reinstalar la app).
 
 4. Finalidades
 Tratamos datos para:
@@ -49,7 +50,7 @@ Comportamiento importante en esta app:
 Sticky Frog usa servicios de Google:
 - Google Play Games Services
 - Google AdMob
-- Google Analytics for Firebase (via endpoint de Firebase Measurement Protocol)
+- Google Analytics for Firebase (SDK nativo de Firebase Analytics integrado en la app)
 
 El tratamiento de Google se rige por sus propias politicas:
 - Politica de Privacidad de Google: https://policies.google.com/privacy
@@ -62,7 +63,7 @@ Los datos necesarios para ofrecer funciones de Google Play Games y monetizacion 
 
 8. Almacenamiento y conservacion
 - Los datos locales del juego se guardan en tu dispositivo hasta que borres datos de la app o la desinstales.
-- Los logs locales de telemetria tienen limite con rotacion automatica para evitar crecimiento sin control.
+- El SDK de Firebase Analytics puede almacenar eventos brevemente en el dispositivo para enviarlos por lotes cuando hay red, segun el comportamiento estandar del SDK.
 - Los datos de Google Play Games, AdMob y Firebase pueden conservarse segun las politicas de Google.
 - Las solicitudes de soporte por email pueden conservarse el tiempo necesario para resolver tu solicitud y cumplir obligaciones legales.
 
